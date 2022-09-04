@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+  background-color: #00203FFF;
+height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  background-color:#101820FF;
+  border-style:ridge;
+  height:auto;
+  margin-left: 40%;
+  width:270px;
+  border-radius: 15px;
+  border-color: transparent;
+
+  
+
+}
+.Shameen{
+       
+       height:230px;
+       width:268px;
+       border-radius: 30px;
+}
+
+.container > h1
+{
+    color:white;
+    line-height: 0.3em;
+}
+
+.container >h3{
+  color:lightsalmon;
+  line-height: 0.3em;
+}
+
+.container > h4{
+  color:lightpink;
+  line-height: 0.4em;
+}
+.Email{
+  border-style: ridge;
+  height:25px;
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 2px;
+  color:transparent;
+  display:flex;
+}
+.emaillogo{
+  height:25px;
+  width:40px;
+  margin-left: 65px;
+}
+
+.link{
+  padding:1px;
+  background-color: white;
+  color: black;
+}
+.container > h2{
+  line-height: 0.2em;
+  margin-right: auto;
+  color:white;
+  padding:0%;
+}
+.paragraph{
+  margin:0px;
+  padding:0;
+  line-height: 20px;
+  color:white;
+  margin-right:auto;
+  line-height: normal;
+
+}
+.footer{
+  padding-top:10px;
+  border-style:inset;
+  border-color: black;
+  background-color:#100c08;
+  border-radius: 3px;
+  margin:0px;
+  width:270px;
+  height:30px;
+  display:flex;
+}
+.fblogo{
+  height:25px;
+  width:40px;
+margin-left:35px;
+  background-color: #100c08;
+}
+.footer > a{
+  background-color: #100c08;
+  color:#100c08;
+}
+.linkedin{
+  height:25px;
+  width:40px;
+  margin-left:25px;
+  background-color: #100c08;
+}
+
+
+.github{
+  height:25px;
+  width:40px;
+  margin-left:15px;
+  background-color: #100c08;
+}
+
+
+.instagram{
+  height:25px;
+  width:40px;
+  margin-left:5px;
+  background-color: #100c08;
 }
